@@ -1,0 +1,31 @@
+{
+  "name": "ecommerce-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/mongodb-adapter": "^1.0.0",
+    "@aws-sdk/client-s3": "^3.388.0",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.13",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.2",
+    "multiparty": "^4.2.3",
+    "next": "13.4.13",
+    "next-auth": "^4.22.5",
+    "postcss": "8.4.27",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-sortablejs": "^6.1.4",
+    "react-sweetalert2": "^0.6.0",
+    "spinners-react": "^1.0.7",
+    "tailwindcss": "3.3.3"
+  }
+}
